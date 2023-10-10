@@ -1,6 +1,23 @@
-.img-feed {
-    height: 21.5rem;
-    width: 21.5rem;
-    object-fit: cover;
-    object-position: center;
+/* .img-feed {
+    height: 20rem;
+    width: auto;
+    object-fit:cover;
+    object-position:right;
+}
+
+.square-img {
+    background-image: url(./img/perro.jpeg);
+} */
+
+.aspect-ratio {
+    position: relative;
+    width: 100%; /* Set the width of the aspect ratio container */
+    padding-bottom: 100%; /* Set the aspect ratio (in this case, 1:1 for a square) */
+}
+
+.aspect-ratio .img-fluid {
+    position: absolute;
+    width: 100%; /* Set the width to 100% so it fills the parent container */
+    height: 100%; /* Set the height to 100% to maintain the aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container without stretching */
 }
