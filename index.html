@@ -13,32 +13,32 @@
 </head>
 
 <body>
-  <div class="container-fluid p-0">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ps-3 pe-5">
-      <a class="navbar-brand col" href="./index.html">
-        <i class="fa-brands fa-instagram"></i>
-        Instagram</a>
-      <div class="col text-end">
-        <button type="button" class="btn btn-success me-2" data-bs-toggle="modal" data-bs-target="#newPost">Create a new
-          post</button>
-        <div class="btn-group">
-          <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            <i class="fa fa-cog" aria-hidden="true"></i>
-          </button>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><a class="dropdown-item" href="#">Accesibility</a></li>
-            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ps-3 pe-5">
+    <div class="container-fluid p-0">
+    <a class="navbar-brand" href="./index.html">
+      <i class="fa-brands fa-instagram"></i>
+      Instagram</a>
+    <div class="d-flex">
+      <button type="button" class="btn btn-sm btn-success me-2" data-bs-toggle="modal" data-bs-target="#newPost">Create a new
+        post</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-sm btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <i class="fa fa-cog" aria-hidden="true"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><a class="dropdown-item" href="#">Accesibility</a></li>
+          <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+        </ul>
       </div>
-    </nav>
+    </div>
   </div>
+  </nav>
 
   <div class="modal fade" id="newPost" tabindex="-1" aria-labelledby="newPost" aria-hidden="true">
     <div class="modal-dialog w-50">
@@ -83,7 +83,7 @@
     </ul>
   </div>
 
-  <div class="container p-5 w-75">
+  <div class="container p-5 w-sm-75">
     <div class="card rounded-1 mb-3">
       <h2 class="card-header bg-white">My crazy dog!</h2>
       <img class="card-img rounded-0" src="./img/perro.jpeg" alt="dog">
