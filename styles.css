@@ -11,15 +11,20 @@
 
 .aspect-ratio {
     position: relative;
-    width: 100%; /* Set the width of the aspect ratio container */
-    padding-bottom: 100%; /* Set the aspect ratio (in this case, 1:1 for a square) */
+    width: 100%;
+    /* Set the width of the aspect ratio container */
+    padding-bottom: 100%;
+    /* Set the aspect ratio (in this case, 1:1 for a square) */
 }
 
 .aspect-ratio .img-fluid {
     position: absolute;
-    width: 100%; /* Set the width to 100% so it fills the parent container */
-    height: 100%; /* Set the height to 100% to maintain the aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container without stretching */
+    width: 100%;
+    /* Set the width to 100% so it fills the parent container */
+    height: 100%;
+    /* Set the height to 100% to maintain the aspect ratio */
+    object-fit: cover;
+    /* Ensure the image covers the container without stretching */
 }
 
 .square-icon {
