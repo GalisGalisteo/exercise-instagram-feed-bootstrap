@@ -21,3 +21,8 @@
     height: 100%; /* Set the height to 100% to maintain the aspect ratio */
     object-fit: cover; /* Ensure the image covers the container without stretching */
 }
+
+.square-icon {
+    width: 2.2rem;
+    height: 2.2rem;
+}

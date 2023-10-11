@@ -14,12 +14,13 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light ps-3 pe-5">
-      <div class="container-fluid p-0">
+    <div class="container-fluid p-0">
       <a class="navbar-brand" href="./index.html">
         <i class="fa-brands fa-instagram"></i>
         Instagram</a>
       <div class="d-flex">
-        <button type="button" class="btn btn-sm btn-success me-2" data-bs-toggle="modal" data-bs-target="#newPost">Create a new
+        <button type="button" class="btn btn-sm btn-success me-2" data-bs-toggle="modal"
+          data-bs-target="#newPost">Create a new
           post</button>
         <div class="btn-group">
           <button type="button" class="btn btn-sm btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
@@ -38,10 +39,10 @@
         </div>
       </div>
     </div>
-    </nav>
+  </nav>
 
   <div class="modal fade" id="newPost" tabindex="-1" aria-labelledby="newPost" aria-hidden="true">
-    <div class="modal-dialog w-50">
+    <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="new-post">Create a new post</h1>
@@ -55,8 +56,12 @@
           </div>
           <div class="container pb-3">
             <div class="row gap-2">
-              <i class="fa-solid fa-camera border rounded p-2 bg-light-subtle col-1 text-center"></i>
-              <i class="fa-solid fa-location-dot border rounded p-2 px-2 bg-light-subtle col-1 text-center"></i>
+              <div class="col-1">
+                <i class="fa-solid fa-camera border rounded p-2 bg-light-subtle text-center square-icon"></i>
+              </div>
+              <div class="col-1">
+                <i class="fa-solid fa-location-dot border rounded p-2 bg-light-subtle text-center square-icon"></i>
+              </div>
             </div>
           </div>
         </div>
